@@ -1,0 +1,217 @@
+#register {
+    background: #383838;
+    color: #909090;
+    position: absolute;
+    width: 100%;
+}
+
+#register .close {
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+#register .here {
+    margin: 140px 0 100px;
+}
+
+#register .here .here-top img {
+    width: 150px;
+}
+
+#register .here .here-top h2 {
+    font-size: 13px;
+    letter-spacing: 8px;
+}
+
+#register .here .here-bottom {
+    max-width: 422px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: left;
+}
+
+#register .here .here-bottom .here-center {
+  padding: 0 15px;
+}
+
+#register .here .here-bottom .here-center .about {
+    display: block;
+    text-align: left;
+}
+
+#register .here .here-bottom .here-center .about label {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+#register .here .here-bottom .here-center .about p {
+  margin-bottom: 0;
+}
+
+#register .here .here-bottom .here-center .ipt1 {
+    width: 100%;
+    height: 32px;
+    background: #383838;
+    margin-bottom: 15px;
+    border: 1px solid #5b5b5b;
+    border-radius: 3px;
+}
+
+#register .here .here-bottom .here-center em {
+  display: inline-block;
+  font-style: normal;
+}
+
+#register .here .here-bottom .here-center .remember {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#register .here .here-bottom .here-center .remember input {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+#register .here .here-bottom .here-center .remember span {
+  vertical-align: middle;
+}
+
+#register .here .here-bottom .here-center .remember a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#register .here .here-bottom .here-center .start {
+    border-top: 1px solid #e4e4e4;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+#register .here .here-bottom .here-center .start a {
+    display: inline-block;
+    padding: 3px 15px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    color: #e4e4e4;
+    font-size: 15px;
+}
+
+#register .here .here-bottom .here-center .start a:first-child {
+    background: #e4e4e4;
+    padding: 6px 10px;
+    margin-right: 135px;
+    color: #333;
+}
+
+#register .here .here-bottom .here-center .way {
+    margin-top: 20px;
+}
+
+#register .here .here-bottom .here-center .way span {
+    vertical-align: bottom;
+    font-size: 15px;
+}
+
+/*微信*/
+#weixin span {
+  display: block;
+  width: 180px;
+  height: 190px;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  right: 80px;
+  top: 50%;
+  z-index: 5;
+  text-align: center;
+  border: 1px solid #444;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #fff;
+  display: none;
+}
+
+#weixin span img {
+  margin: 10px 0 5px;
+}
+
+#weixin span::before {
+  content: '';
+ width: 0;
+ height: 0;
+ border-width: 5px;
+ border-style: solid;
+ border-color: transparent transparent transparent rgba(0, 0, 0, 0.8);
+ position: absolute;
+ right: -10px;
+ top: 50%;
+ margin-top: -5px;
+} 
+
+
+/*右侧信息栏*/
+#footer {
+  position: fixed;
+  top: 35%;
+  right: 0;
+  z-index: 6;
+}
+
+#footer a {
+  width: 170px;
+  height: 60px;
+  background-color: #31353d;
+  text-decoration: none;
+  display: block;
+  -webkit-transform: translate(110px, 0);
+     -moz-transform: translate(110px, 0);
+      -ms-transform: translate(110px, 0);
+       -o-transform: translate(110px, 0);
+          transform: translate(110px, 0);
+  transition: all 0.3s linear;
+}
+
+#footer a.active {
+  background-color: #3ea3ff;
+}
+
+#footer a em {
+  font-size: 17px;
+  color: #fff;
+  margin-left: 20px;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#footer a span {
+  width: 30px;
+  height: 30px;
+  background: url(../images/pic.png) no-repeat -40px -40px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+#footer a .pic2 {
+  background-position: -40px 0;
+}
+
+#footer a .pic3 {
+  background-position: -40px -184px;
+}
+
+#footer a .pic4 {
+  background-position: -40px -77px;
+}
+
+

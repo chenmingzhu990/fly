@@ -1,0 +1,214 @@
+#login {
+    background: #383838;
+    color: rgb(228, 228, 228);
+    position: absolute;
+    width: 100%;
+}
+
+#login .close {
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+#login .here {
+    margin: 140px 0 30px;
+}
+
+#login .here .here-top img {
+    width: 150px;
+}
+
+#login .here .here-top h2 {
+    font-size: 13px;
+    letter-spacing: 8px;
+}
+
+#login .here .here-bottom {
+    max-width: 422px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: left;
+}
+
+#login .here .here-bottom .here-center {
+  padding: 0 35px;
+}
+
+#login .here .here-bottom .here-center .about {
+    display: block;
+    text-align: left;
+}
+
+#login .here .here-bottom .here-center .about label {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+#login .here .here-bottom .here-center .ipt1 {
+    width: 100%;
+    height: 32px;
+    background: #383838;
+    margin: 5px 0 15px;
+    border: 1px solid #5b5b5b;
+    border-radius: 3px;
+}
+
+#login .here .here-bottom .here-center .ipt2 {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+#login .here .here-bottom .here-center .remember {
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+#login .here .here-bottom .here-center .start {
+    border-top: 1px solid #e4e4e4;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#login .here .here-bottom .here-center .start a {
+    display: block;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    color: #e4e4e4;
+    font-size: 15px;
+}
+
+#login .here .here-bottom .here-center .start a:first-child {
+    background: #fff;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#login .here .here-bottom .here-center .way {
+    margin-top: 20px;
+}
+
+#login .here .here-bottom .here-center .way span {
+    vertical-align: bottom;
+    font-size: 15px;
+}
+
+#login .here .here-bottom .here-center .forgot {
+    text-align: right;
+    margin-top: 20px;
+}
+
+#login .here .here-bottom .here-center .forgot a {
+    text-decoration: none;
+    color: #e4e4e4;
+    font-size: 15px;
+}
+
+/*微信*/
+#weixin span {
+  display: block;
+  width: 180px;
+  height: 190px;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  right: 80px;
+  top: 50%;
+  z-index: 5;
+  text-align: center;
+  border: 1px solid #444;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #fff;
+  display: none;
+}
+
+#weixin span img {
+  margin: 10px 0 5px;
+}
+
+#weixin span::before {
+  content: '';
+ width: 0;
+ height: 0;
+ border-width: 5px;
+ border-style: solid;
+ border-color: transparent transparent transparent rgba(0, 0, 0, 0.8);
+ position: absolute;
+ right: -10px;
+ top: 50%;
+ margin-top: -5px;
+} 
+
+
+/*右侧信息栏*/
+#footer {
+  position: fixed;
+  top: 35%;
+  right: 0;
+  z-index: 6;
+}
+
+#footer a {
+  width: 170px;
+  height: 60px;
+  background-color: #31353d;
+  text-decoration: none;
+  display: block;
+  -webkit-transform: translate(110px, 0);
+     -moz-transform: translate(110px, 0);
+      -ms-transform: translate(110px, 0);
+       -o-transform: translate(110px, 0);
+          transform: translate(110px, 0);
+  transition: all 0.3s linear;
+}
+
+#footer a.active {
+  background-color: #3ea3ff;
+}
+
+#footer a em {
+  font-size: 17px;
+  color: #fff;
+  margin-left: 20px;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#footer a span {
+  width: 30px;
+  height: 30px;
+  background: url(../images/pic.png) no-repeat -40px -40px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+#footer a .pic2 {
+  background-position: -40px 0;
+}
+
+#footer a .pic3 {
+  background-position: -40px -184px;
+}
+
+#footer a .pic4 {
+  background-position: -40px -77px;
+}
+
+
+
+/*register的css*/
